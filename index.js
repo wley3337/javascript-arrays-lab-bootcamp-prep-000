@@ -34,7 +34,7 @@ function appendKitten(name){
 // prependKitten(name) prepends a kitten array returns new array, leaving the kitten array unchanged
 function prependKitten(name){
   var firstKitten = [name, ...kitten];
-  returns firstKitten;
+  return firstKitten;
 }
 
 // removeLastKitten() removes last kitten in the array, returns new array, levain kittens unchanged

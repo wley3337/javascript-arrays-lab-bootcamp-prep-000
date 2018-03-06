@@ -27,25 +27,25 @@ function destructivelyRemoveFirstKitten(){
 //appendKitten(name) apends a kitten to the kitten array, returns new arry, leaves kittens array unchanged
 
 function appendKitten(name){
-  var lastKitten = [...kitten, name];
+  var lastKitten = [...kittens, name];
   return lastKitten;
 }
 
 // prependKitten(name) prepends a kitten array returns new array, leaving the kitten array unchanged
 function prependKitten(name){
-  var firstKitten = [name, ...kitten];
+  var firstKitten = [name, ...kittens];
   return firstKitten;
 }
 
 // removeLastKitten() removes last kitten in the array, returns new array, levain kittens unchanged
 function removeLastKitten(){
-  var lostCat = kitten.slice(0, kitten.length - 1);
+  var lostCat = kitten.slice(0, kittens.length - 1);
   return lostCat;
 }
 
 // removeFirstKitten() removes the first kitten from the kittens array and returns a new array
 
 function removeFirstKitten(){
-  var soldCat = kitten.slice(1, kitten.length);
+  var soldCat = kitten.slice(1, kittens.length);
   return soldCat;
 }

@@ -3,12 +3,14 @@ var kittens = ["Milo", "Otis", "Garfield"];
 // destructivelyAppendKitten(name) appends a kitten to end of the Array
 
 function destructivelyAppendKitten(name){
-  kittens.pop();
+  kittens.push(name);
 }
 
 //destructivelyPrependKitten(name) beginning of the Array
 
-
+function destructivelyPrependKitten(name){
+  kittens.unshift(name);
+}
 
 //destructivelyRemoveLastKitten() removes the last kitten from the kittens Array
 

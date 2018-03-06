@@ -26,7 +26,16 @@ function destructivelyRemoveFirstKitten(){
 
 //appendKitten(name) apends a kitten to the kitten array, returns new arry, leaves kittens array unchanged
 
+function appendKitten(name){
+  var lastKitten = [...kitten, name];
+  return lastKitten;
+}
+
 // prependKitten(name) prepends a kitten array returns new array, leaving the kitten array unchanged
+function prependKitten(name){
+  var firstKitten = [name, ...kitten];
+  returns firstKitten;
+}
 
 // removeLastKitten() removes last kitten in the array, returns new array, levain kittens unchanged
 

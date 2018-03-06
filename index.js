@@ -8,6 +8,8 @@ function destructivelyAppendKitten(name){
 
 //destructivelyPrependKitten(name) beginning of the Array
 
+
+
 //destructivelyRemoveLastKitten() removes the last kitten from the kittens Array
 
 //destructivelyRemoveFirstKitten() removes the first kittens

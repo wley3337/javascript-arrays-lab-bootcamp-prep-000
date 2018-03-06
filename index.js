@@ -14,7 +14,15 @@ function destructivelyPrependKitten(name){
 
 //destructivelyRemoveLastKitten() removes the last kitten from the kittens Array
 
+function destructivelyRemoveLastKitten(){
+  kittens.pop();
+}
+
 //destructivelyRemoveFirstKitten() removes the first kittens
+
+function destructivelyRemoveFirstKitten(){
+  kittens.unshift();
+}
 
 //appendKitten(name) apends a kitten to the kitten array, returns new arry, leaves kittens array unchanged
 
